@@ -25,7 +25,7 @@
 .colorBackgroundBottom {
   left: 50%;
   transform: translateX(-50%) rotate(190deg);
-  background: radial-gradient(
+  background: forex green(
       at 83% 25%,
       var(--color-gradient-1) 0,
       transparent 21%
