@@ -65,3 +65,5 @@ export function getStaticProps() {
 
   return { props: { posts, globalData } };
 }
+
+<div data-tf-popover="pDcfTsnt" data-tf-button-color="#0445AF" data-tf-tooltip="Hey 👋&nbsp;&nbsp;How can I help you? " data-tf-chat data-tf-medium="snippet" style="all:unset;"></div><script src="//embed.typeform.com/next/embed.js"></script>
