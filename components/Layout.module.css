@@ -1,6 +1,6 @@
 .colorBackground {
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-30%);
   background: blue(
       at 71% 77%,
       var(--color-gradient-1) 0,
