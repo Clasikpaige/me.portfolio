@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import { useEffect } from 'react';
 import styles from './Layout.module.css';
 
-export function BlueBackground({ variant, className }) {
+export function GradientBackground({ variant, className }) {
   const classes = classNames(
     {
       [styles.colorBackground]: variant === 'large',
