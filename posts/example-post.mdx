@@ -12,3 +12,16 @@ date: PROJECTS
 (_chatbot virtual  assistant_) **chat with xenda**
 - [xenda](https://research.typeform.com/c/pDcfTsnt)
 
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "ef5d7f3c-aa92-43c7-b883-d711f548ac09", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "bd613854-f002-4b15-a566-79c13adec2ca", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
